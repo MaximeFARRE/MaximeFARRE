@@ -4,8 +4,7 @@
 
 # Maxime Farré
 
-<!-- Subtle animated subtitle — remove if you prefer a static line -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=15&duration=3500&pause=1200&color=57606A&center=true&vCenter=true&width=550&lines=Financial+Engineering+·+ESILV+Paris;Quantitative+Finance+%2F+Software+Engineering;Founder+·+Builder+·+Investor-in-training)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter\&weight=400\&size=15\&duration=3500\&pause=1200\&color=57606A\&center=true\&vCenter=true\&width=650\&lines=Financial+Engineering+·+ESILV+Paris;Investment+Research+%2F+Software+Engineering;Founder+·+Builder+·+Investor-in-training)](https://git.io/typing-svg)
 
 </div>
 
@@ -13,11 +12,13 @@
 
 ---
 
-I study financial engineering at ESILV Paris, with a focus on quantitative methods, derivatives and portfolio construction. I translate theory into production-grade tools: a C++ options pricer covering Black-Scholes, Cox-Ross-Rubinstein and Monte Carlo simulation; a multi-asset wealth tracker backed by efficient frontier analysis, Monte Carlo projections and 211 automated tests; and a Streamlit backtesting dashboard modelling systematic strategy workflows. My stack spans desktop applications, REST APIs and full-stack web front-ends.
+I study financial engineering at ESILV Paris, with a strong interest in investment analysis, portfolio construction and decision-making systems for investors.
 
-I believe the most actionable finance skills today sit at the intersection of markets, software and rigorous quantitative thinking — and I build accordingly.
+I build production-grade financial tools: a French small-cap screener designed for buy-side research workflows, a multi-asset wealth tracker with Monte Carlo projections and efficient frontier analysis, a C++ derivatives pricing engine covering Black-Scholes, Cox-Ross-Rubinstein and Monte Carlo simulation, and full-stack applications spanning desktop tools, REST APIs and modern web front-ends.
 
-Currently seeking an internship in investment management, quantitative research, private equity or fintech.
+I believe the most valuable finance skills today sit at the intersection of markets, software and rigorous investment thinking — and I build accordingly.
+
+Currently seeking an internship in investment management, asset management, private equity, family office or fintech.
 
 <br>
 
@@ -25,10 +26,10 @@ Currently seeking an internship in investment management, quantitative research,
 
 ## About
 
-- **Programme** — Financial Engineering (Ingénierie Financière), ESILV Paris — Grande École
-- **Founder** — [Occifloc](https://occifloc.fr) · French family textile customisation company (printing, embroidery, personalised products)
-- **Languages** — French (native) · English (professional)
-- **Location** — Paris, France
+* **Programme** — Financial Engineering (Ingénierie Financière), ESILV Paris — Grande École
+* **Founder** — [Occifloc](https://occifloc.fr) · Family business managing B2B textile customisation projects, supplier relationships and business development
+* **Languages & Certifications** — French (native) · English (professional) · AMF Certification
+* **Location** — Paris, France
 
 <br>
 
@@ -36,16 +37,25 @@ Currently seeking an internship in investment management, quantitative research,
 
 ## Currently working on
 
-| Project | Description |
-|---|---|
-| [portfolio-tracker](https://github.com/MaximeFARRE/portfolio-tracker) | Full-featured personal and family wealth tracker — Monte Carlo projections, efficient frontier, cash flow visualisation |
-| [Site_stage](https://github.com/MaximeFARRE/Site_stage) | Personal portfolio / career site built with Next.js and TypeScript |
+| Project                                                                 | Description                                                                                                               |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| [small-cap-screener](https://github.com/MaximeFARRE/small-cap-screener) | Institutional-grade desktop screening platform for French small caps with KPI engine, scoring models and analyst workflow |
+| [portfolio-tracker](https://github.com/MaximeFARRE/portfolio-tracker)   | Full-featured personal and family wealth tracker — Monte Carlo projections, efficient frontier, cash flow visualisation   |
+| [Site_stage](https://github.com/MaximeFARRE/Site_stage)                 | Personal portfolio / career site built with Next.js and TypeScript                                                        |
 
 <br>
 
 ---
 
 ## Featured Projects
+
+<br>
+
+**[small-cap-screener](https://github.com/MaximeFARRE/small-cap-screener)** · Python / Desktop Research Platform
+
+Institutional-grade screening platform for French small caps (Euronext Paris + Growth), designed for buy-side research workflows. Includes financial normalization pipelines, KPI engine, scoring models, ranking systems, analyst watchlists, exclusions, investment notes and exportable screening snapshots. Built with strict UI → Services → Repositories architecture.
+
+`Python` `SQLAlchemy` `SQLite` `pandas` `pytest` `yfinance` `Desktop UI`
 
 <br>
 
@@ -57,6 +67,38 @@ Consolidated wealth management application covering equities, real estate, priva
 
 <br>
 
+**[github-project-template](https://github.com/MaximeFARRE/github-project-template)** · Python / Engineering Workflow
+
+Professional Python project template designed for production-grade development. Includes strict architecture enforcement, Conventional Commits, semantic releases, Ruff, Black, Mypy, pre-commit hooks, GitHub Actions CI/CD and dedicated instructions for AI coding agents (Codex, Claude, Cursor).
+
+`Python` `Ruff` `Black` `Mypy` `pre-commit` `GitHub Actions` `semantic-release`
+
+<br>
+
+**[options-pricing-cpp](https://github.com/MaximeFARRE/options-pricing-cpp)** · C++17
+
+Derivatives pricing library implementing Black-Scholes closed-form, Monte Carlo simulation (with 95% confidence intervals) and Cox-Ross-Rubinstein binomial tree with early exercise detection. Supports European vanilla, European digital, American and Asian arithmetic options.
+
+`C++17` `Standard Library` `Black-Scholes` `Monte Carlo` `CRR`
+
+<br>
+
+**[SportTrack](https://github.com/MaximeFARRE/SportTrack)** · Python / FastAPI
+
+Full-stack multi-user training analytics platform. OAuth2 Strava integration with automatic token refresh, ATL/CTL training load computation, individual and group performance dashboards, goal tracking, and a complete REST API with interactive documentation.
+
+`FastAPI` `SQLModel` `Streamlit` `Plotly` `PostgreSQL` `pytest`
+
+<br>
+
+**[ml-portfolio-optimization](https://github.com/MaximeFARRE/ml-portfolio-optimization)** · Python / scikit-learn
+
+Academic project comparing classical and ML-based portfolio allocation strategies on S&P 500 data. Benchmarks Equal-Weight, Markowitz MVP, Random Forest and Logistic Regression approaches using Sharpe ratio, Calmar ratio and drawdown metrics.
+
+`scikit-learn` `pandas` `NumPy` `Matplotlib`
+
+<br>
+
 **[Quantitative-Finance-Dashboard](https://github.com/MaximeFARRE/Quantitative-Finance-Dashboard)** · Python / Streamlit
 
 Interactive backtesting platform modelling a quantitative research workflow. Single-asset module: Buy & Hold, Moving Average Crossover and Regime Switching with Sharpe ratio, drawdown and annualised return metrics. Multi-asset module: portfolio construction with rebalancing, risk contribution decomposition, correlation and covariance analysis. Includes automated report generation via cron scheduling.
@@ -64,32 +106,6 @@ Interactive backtesting platform modelling a quantitative research workflow. Sin
 `Streamlit` `pandas` `yfinance` `Matplotlib`
 
 <br>
-
-**[options-pricing-cpp](https://github.com/MaximeFARRE/options-pricing-cpp)** · C++17
-
-Derivatives pricing library implementing Black-Scholes closed-form, Monte Carlo simulation (with 95% confidence intervals) and Cox-Ross-Rubinstein binomial tree with early exercise detection. Supports European vanilla, European digital, American and Asian arithmetic options. No external dependencies; OOP hierarchy with a generic template binary tree.
-
-`C++17` `Standard Library` `Black-Scholes` `Monte Carlo` `CRR`
-
-<br>
-
-**[ml-portfolio-optimization](https://github.com/MaximeFARRE/ml-portfolio-optimization)** · Python / scikit-learn
-
-ESILV academic project comparing classical and ML-based portfolio allocation strategies on S&P 500 data. Benchmarks Equal-Weight, Markowitz MVP, Random Forest (GridSearchCV-tuned) and Logistic Regression (L2) approaches on risk-adjusted metrics — Sharpe, Calmar ratio, maximum drawdown. Feature engineering with ANOVA selection.
-
-`scikit-learn` `pandas` `NumPy` `Matplotlib` `seaborn` `stable-baselines3`
-
-<br>
-
-**[SportTrack](https://github.com/MaximeFARRE/SportTrack)** · Python / FastAPI
-
-Full-stack multi-user training analytics platform. OAuth2 Strava integration with automatic token refresh, ATL/CTL training load computation, individual and group performance dashboards, goal tracking, and a complete REST API with interactive documentation. Designed for small athlete groups; supports SQLite in development and PostgreSQL in production.
-
-`FastAPI` `SQLModel` `Streamlit` `Plotly` `PostgreSQL` `pytest`
-
-<br>
-
----
 
 ## Tech Stack
 
@@ -130,7 +146,7 @@ Full-stack multi-user training analytics platform. OAuth2 Strava integration wit
 
 ## Interests
 
-`Quantitative Finance` &nbsp;·&nbsp; `Portfolio Construction` &nbsp;·&nbsp; `Derivatives & Structured Products` &nbsp;·&nbsp; `Asset Management` &nbsp;·&nbsp; `Private Equity` &nbsp;·&nbsp; `Venture Capital` &nbsp;·&nbsp; `Fintech` &nbsp;·&nbsp; `Software Engineering` &nbsp;·&nbsp; `Process Automation` &nbsp;·&nbsp; `Entrepreneurship`
+`Investment Management` · `Asset Management` · `Small Cap Investing` · `Portfolio Construction` · `Private Equity` · `Family Office` · `Financial Software` · `Fintech` · `Software Engineering` · `Entrepreneurship`
 
 <br>
 
@@ -138,12 +154,14 @@ Full-stack multi-user training analytics platform. OAuth2 Strava integration wit
 
 ## Open to opportunities
 
-I am looking for a **6-month internship** starting from **September 2026** or **early 2027**, through **September 2027**, in one of the following areas:
+I am particularly interested in roles where investment judgment and analytical rigor meet.
 
-- Investment management · asset management · multi-family office
-- Quantitative research · systematic strategies · risk management
-- Private equity · venture capital · growth equity
-- Fintech · financial software engineering
+Looking for a **6-month internship** starting from **September 2026** or **early 2027**, through **September 2027**, in:
+
+* Investment management · asset management · multi-family office
+* Equity research · buy-side analysis · small/mid-cap investing
+* Private equity · venture capital · growth equity
+* Fintech · financial software engineering
 
 Open to positions in **Paris**, **London** or internationally.
 
@@ -156,22 +174,21 @@ Open to positions in **Paris**, **London** or internationally.
 <div align="center">
 
 <img
-  src="https://github-readme-stats.vercel.app/api?username=MaximeFARRE&show_icons=true&hide_border=true&hide_title=true&rank_icon=github&count_private=true&theme=default&icon_color=1F6FEB"
-  height="145"
-  alt="GitHub stats"
+src="https://github-readme-stats.vercel.app/api?username=MaximeFARRE&show_icons=true&hide_border=true&hide_title=true&rank_icon=github&count_private=true&theme=default&icon_color=1F6FEB"
+height="145"
+alt="GitHub stats"
 />
-&nbsp;&nbsp;
-<img
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaximeFARRE&layout=compact&hide_border=true&theme=default&langs_count=6"
-  height="145"
-  alt="Top languages"
+   <img
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaximeFARRE&layout=compact&hide_border=true&theme=default&langs_count=6"
+height="145"
+alt="Top languages"
 />
 
 <br><br>
 
 <img
-  src="https://streak-stats.demolab.com?user=MaximeFARRE&hide_border=true&theme=default&date_format=j%20M%5B%20Y%5D"
-  alt="GitHub streak"
+src="https://streak-stats.demolab.com?user=MaximeFARRE&hide_border=true&theme=default&date_format=j%20M%5B%20Y%5D"
+alt="GitHub streak"
 />
 
 </div>
@@ -182,11 +199,11 @@ Open to positions in **Paris**, **London** or internationally.
 
 ## Contact
 
-| | |
-|---|---|
-| LinkedIn | [linkedin.com/in/maxime-farre](https://www.linkedin.com/in/maxime-farre/) |
-| Portfolio | [maxime-farre.xyz](https://maxime-farre.xyz) |
-| Email | [maxime@maxime-farre.xyz](mailto:maxime@maxime-farre.xyz) |
+|           |                                                                           |
+| --------- | ------------------------------------------------------------------------- |
+| LinkedIn  | [linkedin.com/in/maxime-farre](https://www.linkedin.com/in/maxime-farre/) |
+| Portfolio | [maxime-farre.xyz](https://maxime-farre.xyz)                              |
+| Email     | [maxime@maxime-farre.xyz](mailto:maxime@maxime-farre.xyz)                 |
 
 <br>
 
