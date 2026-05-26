@@ -14,7 +14,7 @@
 
 I study financial engineering at ESILV Paris, with a strong interest in investment analysis, portfolio construction and decision-making systems for investors.
 
-I build production-grade financial tools: a French small-cap screener designed for buy-side research workflows, a multi-asset wealth tracker with Monte Carlo projections and efficient frontier analysis, a C++ derivatives pricing engine covering Black-Scholes, Cox-Ross-Rubinstein and Monte Carlo simulation, and full-stack applications spanning desktop tools, REST APIs and modern web front-ends.
+I build production-grade financial tools: a French small-cap screener designed for buy-side research workflows, a multi-asset wealth tracker with Monte Carlo projections and efficient frontier analysis, a finance learning platform for interview preparation, a C++ derivatives pricing engine covering Black-Scholes, Cox-Ross-Rubinstein and Monte Carlo simulation, and full-stack applications spanning desktop tools and modern web front-ends.
 
 I believe the most valuable finance skills today sit at the intersection of markets, software and rigorous investment thinking — and I build accordingly.
 
@@ -41,6 +41,8 @@ Currently seeking an internship in investment management, asset management, priv
 | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | [small-cap-screener](https://github.com/MaximeFARRE/small-cap-screener) | Institutional-grade desktop screening platform for French small caps with KPI engine, scoring models and analyst workflow |
 | [portfolio-tracker](https://github.com/MaximeFARRE/portfolio-tracker)   | Full-featured personal and family wealth tracker — Monte Carlo projections, efficient frontier, cash flow visualisation   |
+| [SportTrack](https://github.com/MaximeFARRE/SportTrack)                 | Multi-user endurance training platform built with Next.js, Supabase, Strava sync, coaching groups and risk analytics     |
+| [finance-app](https://github.com/MaximeFARRE/finance-app)               | Offline-first finance interview learning app with spaced repetition, XP progression, content admin and import/export     |
 | [Site_stage](https://github.com/MaximeFARRE/Site_stage)                 | Personal portfolio / career site built with Next.js and TypeScript                                                        |
 
 <br>
@@ -83,11 +85,19 @@ Derivatives pricing library implementing Black-Scholes closed-form, Monte Carlo 
 
 <br>
 
-**[SportTrack](https://github.com/MaximeFARRE/SportTrack)** · Python / FastAPI
+**[SportTrack](https://github.com/MaximeFARRE/SportTrack)** · Next.js 16 / Supabase
 
-Full-stack multi-user training analytics platform. OAuth2 Strava integration with automatic token refresh, ATL/CTL training load computation, individual and group performance dashboards, goal tracking, and a complete REST API with interactive documentation.
+Multi-user endurance training platform for athletes and coaches. Includes Strava OAuth sync, ATL/CTL/TSB training load analytics, ACWR injury-risk monitoring, HR zones, qualitative post-session logging, group coaching, planning calendars, Supabase Auth/RLS and Vercel Cron jobs.
 
-`FastAPI` `SQLModel` `Streamlit` `Plotly` `PostgreSQL` `pytest`
+`Next.js 16` `React 19` `TypeScript` `Supabase` `PostgreSQL` `Tailwind CSS` `Vitest` `Vercel`
+
+<br>
+
+**[finance-app](https://github.com/MaximeFARRE/finance-app)** · Next.js 16 / TypeScript
+
+Gamified, offline-first finance interview learning app. Uses spaced repetition, progressive unlocks, XP and career-level progression, daily review queues, lesson stars, local progress storage, and an admin interface for managing cards, imports, exports and user suggestions.
+
+`Next.js 16` `React 19` `TypeScript` `Tailwind CSS` `Vitest` `IndexedDB` `YAML` `ESLint`
 
 <br>
 
@@ -126,7 +136,6 @@ Interactive backtesting platform modelling a quantitative research workflow. Sin
 
 **Frameworks & Tools**
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
@@ -174,14 +183,34 @@ Open to positions in **Paris**, **London** or internationally.
 <div align="center">
 
 <img
-src="https://github-readme-stats.vercel.app/api?username=MaximeFARRE&show_icons=true&hide_border=true&hide_title=true&rank_icon=github&count_private=true&theme=default&icon_color=1F6FEB"
-height="145"
-alt="GitHub stats"
+src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MaximeFARRE&theme=github"
+alt="GitHub contribution summary"
+/>
+
+<br><br>
+
+<img
+src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MaximeFARRE&theme=github"
+height="180"
+alt="Repositories by language"
 />
    <img
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaximeFARRE&layout=compact&hide_border=true&theme=default&langs_count=6"
-height="145"
-alt="Top languages"
+src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MaximeFARRE&theme=github"
+height="180"
+alt="Most committed languages"
+/>
+
+<br><br>
+
+<img
+src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MaximeFARRE&theme=github"
+height="180"
+alt="GitHub profile stats"
+/>
+   <img
+src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MaximeFARRE&theme=github&utcOffset=2"
+height="180"
+alt="GitHub productive time"
 />
 
 <br><br>
