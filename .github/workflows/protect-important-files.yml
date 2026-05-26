@@ -1,0 +1,51 @@
+name: Protect important files
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  prevent-critical-deletions:
+    name: Prevent critical file deletions
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Detect deleted protected files
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            base_sha="${{ github.event.pull_request.base.sha }}"
+          elif [[ "${{ github.event.before }}" != "0000000000000000000000000000000000000000" ]]; then
+            base_sha="${{ github.event.before }}"
+          else
+            base_sha="$(git rev-parse HEAD~1)"
+          fi
+
+          mapfile -t deleted_files < <(git diff --name-only --diff-filter=D "$base_sha" HEAD)
+          protected_deletions=()
+
+          for file in "${deleted_files[@]}"; do
+            case "$file" in
+              README.md|AGENTS.md|docs/*|.github/*)
+                protected_deletions+=("$file")
+                ;;
+            esac
+          done
+
+          if ((${#protected_deletions[@]} > 0)); then
+            printf 'Protected files were deleted:\n'
+            printf ' - %s\n' "${protected_deletions[@]}"
+            printf '\nRestore these files or explicitly update the protection workflow.\n'
+            exit 1
+          fi
+
+          printf 'No protected files were deleted.\n'
